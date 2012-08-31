@@ -1,12 +1,12 @@
 call {
 
-<<<<<<< HEAD
+
 color:#2B6C9D;
 font-size:18px;
-=======
+
 color:#4D7DAB;
 font-size:16px;
->>>>>>> 9723a43f1a409b895280bba9c8d6305082d42392
+
 }
 
 call2{
@@ -662,6 +662,9 @@ padding-bottom:15px;
    		background:  #276391;
 		margin-bottom:10px;
 		
+		
+		
+		
 }
    
    #main_nav a:link
@@ -673,6 +676,16 @@ padding-bottom:15px;
 		border: 1px;
 		padding-right:12px;
 		padding-left:12px;
+		
+		
+		-moz-transition-property : background, color;
+-moz-transition-duration:0.4s;
+-webkit-transition-property : background, color;
+-webkit-transition-duration : 0.4s;
+-o-transition-property : background, color;
+-o-transition-duration : 0.4s;
+transition-property : background, color;
+transition-duration : 0.4s;
 		
 		
    		text-decoration: none;
@@ -689,6 +702,16 @@ padding-bottom:15px;
    		background-color:#4a799d;
 		
 		margin-bottom:10px;
+		
+		-moz-transition-property : background, color;
+-moz-transition-duration:0.4s;
+-webkit-transition-property : background, color;
+-webkit-transition-duration : 0.4s;
+-o-transition-property : background, color;
+-o-transition-duration : 0.4s;
+transition-property : background, color;
+transition-duration : 0.4s;
+		
    	}
    
    #main_nav li{
