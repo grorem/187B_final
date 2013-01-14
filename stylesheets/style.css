@@ -21,7 +21,7 @@ margin-left: 0px;
 font-weight: 900;
 margin-left: 0px;
 font-weight: 900;
-border: 2px dotted #011627 ;
+
 color: black;
 font-size: 16px;
 font-weight: 900;
@@ -674,8 +674,8 @@ padding-bottom:15px;
    		border-style:solid;
 		border-color:#4a799d;
 		border: 1px;
-		padding-right:12px;
-		padding-left:12px;
+		padding-right:21px;
+		padding-left:21px;
 		
 		
 		-moz-transition-property : background, color;
@@ -697,8 +697,28 @@ transition-duration : 0.4s;
    		text-decoration: none;
    	}
    	
+	
+	
+	
+	
+	#main_nav a
+   {   
+		
+		-moz-transition-property : background, color;
+-moz-transition-duration:0.4s;
+-webkit-transition-property : background, color;
+-webkit-transition-duration : 0.4s;
+-o-transition-property : background, color;
+-o-transition-duration : 0.4s;
+transition-property : background, color;
+transition-duration : 0.4s;
+		
+   	}
+	
+	
+	
    	#main_nav a:hover
-   {   padding-bottom:15px;
+   {   padding-bottom:10px;
    		background-color:#4a799d;
 		
 		margin-bottom:10px;
@@ -959,10 +979,39 @@ a.link_style {
 	  color:white;
    }
 
+   
+   
+   
+   #sub_nav a{
+   
+	-moz-transition-property : background, color;
+	-moz-transition-duration:0.4s;
+	-webkit-transition-property : background, color;
+	-webkit-transition-duration : 0.4s;
+	-o-transition-property : background, color;
+	-o-transition-duration : 0.4s;
+	transition-property : background, color;
+	transition-duration : 0.4s;
+   }
+   
+   
+   
+   
    #sub_nav a:hover{
    background-color: #4a799d;
-   
+	-moz-transition-property : background, color;
+	-moz-transition-duration:0.4s;
+	-webkit-transition-property : background, color;
+	-webkit-transition-duration : 0.4s;
+	-o-transition-property : background, color;
+	-o-transition-duration : 0.4s;
+	transition-property : background, color;
+	transition-duration : 0.4s;
    }
+   
+   
+   
+   
    
    
    #sub_nav .selected{
